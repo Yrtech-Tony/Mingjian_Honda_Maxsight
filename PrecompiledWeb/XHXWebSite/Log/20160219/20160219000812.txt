@@ -1,0 +1,12 @@
+System.Data.OleDb.OleDbException: 语句已终止。
+INSERT 语句与 FOREIGN KEY 约束"FK__AreaShop__AreaCo__5224328E"冲突。该冲突发生于数据库"GACFCA"，表"dbo.Area", column 'AreaCode'。
+   在 System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbDataReader.NextResult()
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 CommonHandler.query(String sql) 位置 d:\D盘\workspace\项目整理\进行中的项目\Source\PC程序\广汽菲克\XHXWebSite\App_Code\CommonHandler.cs:行号 99 
+EXEC up_DSAT_Shop_S '东七区','东二区','33566','嘉兴博众汽车服务有限公司','True','sysadmin','浙江','嘉兴'��西','长治'
