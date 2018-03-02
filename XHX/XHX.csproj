@@ -24,7 +24,7 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
-    <PublishUrl>D:\D盘\workspace\项目整理\进行中的项目\Source\PC程序\广州本田\发布文件\</PublishUrl>
+    <PublishUrl>C:\New Folder\Mingjian_Honda_Maxsight\发布文件\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -39,7 +39,7 @@
     <PublisherName>北京怡睿科技发展有限公司</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>21</ApplicationRevision>
+    <ApplicationRevision>22</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>false</BootstrapperEnabled>
@@ -81,7 +81,7 @@
   <ItemGroup>
     <Reference Include="Aliyun.OpenServices, Version=1.0.5290.21916, Culture=neutral, PublicKeyToken=0ad4175f0dac0b9b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\ElandEmp\Desktop\aliyun_dotnet_sdk_20140626\bin\Aliyun.OpenServices.dll</HintPath>
+      <HintPath>..\Lib\Aliyun.OpenServices.dll</HintPath>
     </Reference>
     <Reference Include="AxInterop.DSOFramer, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -1464,15 +1464,6 @@
     <None Include="XHX_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <PublishFile Include="Aliyun.OpenServices">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <FileType>Assembly</FileType>
-    </PublishFile>
     <PublishFile Include="AxInterop.DSOFramer">
       <Visible>False</Visible>
       <Group>

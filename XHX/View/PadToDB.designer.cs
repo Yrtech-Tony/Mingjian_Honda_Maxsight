@@ -184,7 +184,6 @@ namespace XHX.View
             this.simpleButton2.Size = new System.Drawing.Size(115, 37);
             this.simpleButton2.TabIndex = 90;
             this.simpleButton2.Text = "更新数据";
-            this.simpleButton2.Visible = false;
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // labelControl4
