@@ -226,26 +226,26 @@ namespace XHX.View
                 fullScore = (decimal)dsFullScore.Tables[0].Rows[0]["FullScore"];
             }
 
-            if (this.UserInfoDto.RoleType != "S")
-            {
-                //if (chkLastNotinvolved.Checked)
-                //{
-                //    CommonHandler.ShowMessage(MessageType.Information, "不能勾选不涉及");
-                //    return;
-                //}
-                if (string.IsNullOrEmpty(txtScore.Text))
-                {
-                    CommonHandler.ShowMessage(MessageType.Information, "请填写分数");
-                    return;
-                }
+            //if (this.UserInfoDto.RoleType != "S")
+            //{
+            //    //if (chkLastNotinvolved.Checked)
+            //    //{
+            //    //    CommonHandler.ShowMessage(MessageType.Information, "不能勾选不涉及");
+            //    //    return;
+            //    //}
+            //    if (string.IsNullOrEmpty(txtScore.Text))
+            //    {
+            //        CommonHandler.ShowMessage(MessageType.Information, "请填写分数");
+            //        return;
+            //    }
 
-                //if (!(Convert.ToDecimal(txtScore.Text.Trim()) == Convert.ToDecimal("0.00") || Convert.ToDecimal(txtScore.Text.Trim()) == Convert.ToDecimal("1.00")))
-                //{
-                //    CommonHandler.ShowMessage(MessageType.Information, "只能填写1分或者0分");
-                //    return;
-                //}
+            //    //if (!(Convert.ToDecimal(txtScore.Text.Trim()) == Convert.ToDecimal("0.00") || Convert.ToDecimal(txtScore.Text.Trim()) == Convert.ToDecimal("1.00")))
+            //    //{
+            //    //    CommonHandler.ShowMessage(MessageType.Information, "只能填写1分或者0分");
+            //    //    return;
+            //    //}
               
-            }
+            //}
             if (string.IsNullOrEmpty(txtScore.Text) && !chkNotinvolved.Checked)
             {
                 CommonHandler.ShowMessage(MessageType.Information, "请填写分数");
