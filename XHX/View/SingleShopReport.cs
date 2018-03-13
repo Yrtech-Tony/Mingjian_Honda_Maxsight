@@ -136,7 +136,7 @@ namespace XHX.View
                 #region 体系信息
 
                 Worksheet worksheet_Subject = workbook.Worksheets["考核项目达成明细"] as Worksheet;
-                for (int i = 5; i < 140; i++)
+                for (int i = 5; i < 300; i++)
                 {
                     for (int j = 0; j < shopReportDto.ShopSubjectScoreInfoDtoList.Count; j++)
                     {
@@ -163,7 +163,7 @@ namespace XHX.View
             }
             #endregion
 
-            workbook.Close(true, Path.Combine(tbnFilePath.Text, shopReportDto.AreaName + "_" + shopReportDto.ShopCode + "_" + shopReportDto.ShopName + "_2017年第1期售后明检项目_单店报告.xlsx"), Type.Missing);
+            workbook.Close(true, Path.Combine(tbnFilePath.Text, shopReportDto.AreaName + "_" + shopReportDto.ShopCode + "_" + shopReportDto.ShopName + "_2018年第1期售后明检项目_单店报告.xlsx"), Type.Missing);
         }
 
         private void GenerateReport()
